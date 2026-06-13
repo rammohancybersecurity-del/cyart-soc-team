@@ -1,0 +1,38 @@
+Elastic Security - Event ID 4672 Findings
+
+Host:
+DESKTOP-6EHJM4H
+
+Data View:
+logs-*
+
+Query Used:
+event.code: "4672"
+
+Time Range:
+Last 30 minutes
+
+Result:
+20 matching Event ID 4672 logs were found.
+
+Observation:
+Event ID 4672 indicates special privileges were assigned to a new logon. This can be normal for administrator logins, but it is useful for hunting unauthorized privilege usage.
+
+MITRE Mapping:
+T1078 - Valid Accounts
+
+Notes:
+Windows Elastic Agent is healthy and sending Windows Security logs to Elastic.
+
+
+
+
+
+3. Create findings table
+
+Add this table also:
+
+| Timestamp | User | Host | Event ID | Notes |
+|----------|------|------|----------|-------|
+| 2026-06-09 22:47:12 | DESKTOP-6EHJM4H user | DESKTOP-6EHJM4H | 4672 | Special privileges assigned during logon |
+| 2026-06-09 22:42:17 | DESKTOP-6EHJM4H user | DESKTOP-6EHJM4H | 4672 | Admin/special privilege logon observed |
