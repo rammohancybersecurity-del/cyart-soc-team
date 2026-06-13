@@ -1,12 +1,10 @@
-# Week 4 – Advanced SOC Operations
+## SOC Advanced Operations, Threat Hunting & Incident Response Lab
 
-## Objective
+Overview
 
-This project demonstrates practical SOC operations including Threat Hunting, SOAR Automation, Incident Response, Evidence Analysis, Adversary Emulation, Security Metrics Reporting, and a Comprehensive Incident Response Capstone.
+This project simulates advanced Security Operations Center (SOC) activities, including Threat Hunting, SOAR Automation, Alert Triage, Post-Incident Analysis, Evidence Collection, Adversary Emulation, Security Metrics Reporting, and End-to-End Incident Response. The lab was designed to provide hands-on experience with industry-standard security tools and frameworks used by SOC Analysts and Blue Team professionals.
 
----
-
-## Tools Used
+Tools Used
 
 * Elastic Security
 * Wazuh
@@ -17,82 +15,98 @@ This project demonstrates practical SOC operations including Threat Hunting, SOA
 * VirusTotal
 * CrowdSec
 * MITRE Caldera
-* Metasploit
+* Metasploit Framework
 * Draw.io
-* Google Docs
 * Google Sheets
+* Google Docs
 
----
+Key Activities
 
-## Tasks Completed
+Threat Hunting
 
-### 1. Threat Hunting
+* Log analysis and event correlation
+* IOC investigation and validation
+* MITRE ATT&CK mapping (T1078)
 
-* Log analysis using Elastic Security
-* IOC validation using AlienVault OTX
-* Endpoint investigation using Velociraptor
+SOAR Automation
 
-### 2. SOAR Playbook Development
+* Phishing response playbook development
+* Automated IP reputation checks
+* Automated incident ticket creation
+* Threat containment using CrowdSec
 
-* Phishing response automation
-* IP reputation validation
-* Automated ticket creation and blocking actions
-
-### 3. Post-Incident Analysis
+Post-Incident Analysis
 
 * Root Cause Analysis (5 Whys)
-* Fishbone Diagram
-* Lessons Learned Documentation
+* Fishbone Diagram creation
+* Lessons Learned documentation
 
-### 4. Alert Triage
+Alert Triage & Threat Intelligence
 
 * Wazuh alert investigation
-* VirusTotal threat validation
-* Incident escalation workflow
+* VirusTotal IOC validation
+* Incident prioritization and escalation
 
-### 5. Evidence Analysis
+Evidence Analysis
 
-* Network evidence collection
+* Endpoint and network evidence collection
 * Chain-of-custody documentation
-* Endpoint forensic review
+* Forensic data review and preservation
 
-### 6. Adversary Emulation
+Adversary Emulation
 
 * MITRE Caldera attack simulation
-* Detection validation using Wazuh
+* Detection validation and control assessment
+* Detection gap identification
 
-### 7. Security Metrics Reporting
+Security Metrics & Reporting
 
-* MTTD, MTTR, Dwell Time Analysis
-* Executive Security Reporting
+* MTTD and MTTR calculation
+* Dwell Time analysis
+* Executive security reporting
 
-### 8. Capstone Project
+Capstone Project
 
-* Attack Simulation using Metasploit
-* Detection and Response using Wazuh
-* Incident Management using TheHive
-* Threat Containment using CrowdSec
-* Final Incident Response Report
+Simulated a complete cyberattack lifecycle by exploiting a vulnerable service using Metasploit, detecting malicious activity through Wazuh, triaging alerts in TheHive, containing threats using CrowdSec, conducting Root Cause Analysis, calculating SOC metrics, and documenting the entire incident response process from detection to recovery.
 
----
+Skills Demonstrated
 
-## Repository Structure
+* Security Operations Center (SOC) Operations
+* Threat Hunting
+* Threat Intelligence Analysis
+* SIEM Monitoring and Investigation
+* Incident Detection and Response
+* SOAR Automation
+* Alert Triage and Escalation
+* Digital Forensics and Evidence Handling
+* MITRE ATT&CK Mapping
+* Security Metrics Reporting
+* Executive Communication and Documentation
+
+MITRE ATT&CK Techniques
+
+* T1078 – Valid Accounts
+* T1566 – Phishing
+* T1210 – Exploitation of Remote Services
+
+Repository Structure
 
 ```text
 Week 4/
 ├── Threat Hunting/
-├── SOAR Playbook/
+├── SOAR Playbook Development/
 ├── Post Incident Analysis/
 ├── Alert Triage/
 ├── Evidence Analysis/
 ├── Adversary Emulation/
-├── Security Metrics/
+├── Security Metrics & Reporting/
 ├── Capstone Project/
 └── README.md
 ```
 
----
 
-## Outcome
+Author
 
-Successfully completed all Week 4 SOC activities, including threat detection, incident response, automation, forensic analysis, adversary emulation, and executive reporting with supporting documentation and screenshots.
+**H Ram Mohan**
+
+Cybersecurity Enthusiast | SOC Analyst Intern | Blue Team Practitioner
